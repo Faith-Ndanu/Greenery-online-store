@@ -1,0 +1,317 @@
+    
+ body{
+    background-color: aliceblue;
+ }   
+    #Navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+#h2{
+    display: flex;
+    gap: 20px;
+}
+#h3{
+    gap: 20%;
+}
+#content1{
+margin-left: 100px;
+background-image: url(images/image.webp);
+background-repeat: no-repeat;
+height: 700px;
+font-size: x-large;
+width: 800px;
+}
+#flowers{
+    width: 600px;
+    height: 600px;
+}
+#content2{
+    display: flex;
+    gap: 10%;
+}
+#content3{
+    display: flex;
+}
+
+#container{
+    display: flex;
+}
+#container1{
+    display: grid;
+}
+#greenflower{
+    width: 250px;
+    height: 180px;
+}
+#span{
+    color: green;
+}
+#content4{
+display: flex;
+}
+content5{
+    display: flex;
+}
+#content6{
+    display: flex;
+
+}
+#container2{
+display: flex;
+gap: 240px;
+margin-left: 100px;
+}
+#container3{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    font-size: larger;
+}
+#container4{
+    display: flex;
+    gap: 12%;
+    margin-left: 90px;
+    font-size: larger;
+}
+#container5{
+    display: flex;
+    gap: 12%;
+    margin-left: 90px;
+    font-size: larger;
+}
+#terrarium{
+width: 500px;
+display: grid;
+}
+#container6{
+gap: 280px;
+display: flex;
+margin-right: 500000px;
+}
+#content14{
+    text-align: center;
+    font-size: x-large;
+}
+#container7{
+    display: flex;
+    gap: 200px;
+    margin-left: 80px;
+    font-size: x-large;
+}
+#oceanic{
+    width: 400px;
+    height: 400px;
+}
+#container8{
+text-align: center;
+font-size: x-large;
+
+}
+#container9{
+    display: flex;
+ justify-content: space-between;
+ font-size: larger;
+}
+#container11{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+#container12{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+#text{
+    font-size: xx-large;
+}
+#container13{
+    display: flex;
+    gap: 200px;
+    margin-left: 50px;
+    font-size: x-large;
+}
+#context{
+    width: 300px;
+    height: 350px;
+}
+#container14{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+#text3{
+    font-size: x-large;
+}
+#content30{
+    text-align: center;
+    font-size: x-large;
+}
+#content31{
+    display: flex;
+    justify-content: space-between;
+}
+#content32{
+    text-align: center;
+    font-size: larger;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+}
+#icons{
+    width: 80px;
+    height: 100px;
+}
+#button{
+    background-color: green;
+}
+
+
+
+ @media screen and (min-width:280px) and (max-width:460px) {
+    #Navbar{
+        display: flex;
+        font-size: small;
+    }
+    body{
+        
+        background-color: rgb(216, 215, 242);
+    }
+    #footer{
+        display: grid;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 100px;
+        font-size: x-small;
+    }
+    #content31{
+        display: grid;
+        gap: 4%;
+        margin-bottom: 150px;
+        width: 150px;
+    }
+    #container14{
+        display: grid;
+        justify-content: space-between;
+        font-size: small;
+    }
+    #container12{
+        display: grid;
+        justify-content: space-between;
+        font-size: small;
+    }
+    #container11{
+        display: grid;
+        justify-content: space-between;
+        font-size: small;
+    }
+    #container9{
+        display: grid;
+     justify-content: space-between;
+     font-size: small;
+    }
+    #container6{
+        gap: 20px;
+        display: grid;
+        }
+        #terrarium{
+            width: 100px;
+            display: grid;
+            }
+    #container7{
+     display: grid;
+    gap: 20px;
+    margin-left: 10px;
+    font-size: small;
+     }
+     #oceanic{
+    width: 200px;
+    height: 250px;
+            }
+     #container4{
+   display: grid;
+     gap: 10%;
+    margin-left: 10px;
+    font-size: small;
+            }
+    #container5{
+     display: grid;
+    gap: 10%;
+     margin-left: 10px;
+    font-size: small;
+    margin-bottom: 250px;
+            }
+    #content1{
+     margin-left: 0px;
+     background-image: url(images/image.webp);
+     background-repeat: no-repeat;
+    height: 500px;
+    font-size: small;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+     }
+     #content2{
+        display: grid;
+        gap: 10%;
+        margin-top: 200px;
+        margin-right: 00px;
+        
+    }
+    #content3{
+        display: grid;
+        gap: 0%;
+        margin-top: 130px;
+        margin-right: 00px;
+    }
+    #container2{
+        display: grid;
+        gap: 20px;
+        margin-left: 10px;
+        }
+        #content4{
+            display: grid;
+            }
+           #content5{
+                display: grid;
+                
+            }
+            #content6{
+                display: grid;
+            
+            }
+            #container{
+                display: grid;
+            }
+            #container1{
+                display: grid;
+            }
+            #Navbar{
+                display: grid;
+                justify-content: space-between;
+                font-size: smaller;
+            }
+            #h2{
+                display: grid;
+                gap: 1px;
+            }
+ 
+#container13{
+    display: grid;
+    gap: 00px;
+    margin-left: 0px;
+    font-size: small;
+}
+   #context{
+    width: 270px;
+   } 
+   #icons{
+    width: 50px;
+    height: 80px;
+}
+ }
